@@ -1,0 +1,28 @@
+body
+{
+  color: #06283D;
+  background-color: #256D85;
+}
+.titulo
+{
+  text-align: center;
+  font-size: 75px;
+}
+img
+{
+  width: 100%;
+  align-items: baseline;
+  
+}
+.imagenes
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  transition: 1s;
+}
+.imagenes img:hover
+{
+  filter: blur(100%);
+  transform: scale(1.1);
+}
