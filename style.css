@@ -12,7 +12,8 @@ img
 {
   width: 100%;
   align-items: baseline;
-  
+  height: auto;
+  border-radius: 10px;
 }
 .imagenes
 {
