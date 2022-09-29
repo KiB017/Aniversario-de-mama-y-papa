@@ -3,11 +3,24 @@ body
   color: #06283D;
   background-color: #256D85;
 }
+
+header
+{
+  font-family: Lobster;
+  display: flex;
+  min-height: 70px;
+  background: #FF0000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
 .titulo
 {
   text-align: center;
   font-size: 75px;
 }
+
 img
 {
   width: 100%;
@@ -15,6 +28,7 @@ img
   height: auto;
   border-radius: 10px;
 }
+
 .imagenes
 {
   display: grid;
@@ -22,6 +36,7 @@ img
   gap: 5px;
   transition: 1s;
 }
+
 .imagenes img:hover
 {
   filter: blur(100%);
