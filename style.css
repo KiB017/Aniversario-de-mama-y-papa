@@ -4,7 +4,7 @@ body
   background-color: #256D85;
 }
 
-header
+.header
 {
   font-family: Lobster;
   display: flex;
